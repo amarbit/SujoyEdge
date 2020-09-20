@@ -77,3 +77,4 @@ end
 input_img = testimage("cameraman")
 grayImg = sujoy(input_img,0,true)
 mosaicview(input_img,grayImg; nrow = 1)
+save("assets/sedge.png", grayImg) #src
